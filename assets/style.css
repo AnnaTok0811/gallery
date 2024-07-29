@@ -4,6 +4,7 @@ body
 
 .header{
     display: flex;
+    -webkit-display: flex;
     flex-direction:row;
     justify-content: space-around;
     padding: 20px;
@@ -22,6 +23,7 @@ body
 }
 .Magic-items{
   display: flex;
+  -webkit-display: flex;
     flex-direction:row;
     justify-content: space-around;
     padding: 20px;
@@ -31,6 +33,7 @@ body
 .flex-element-Magic-items{
  width: 33%;
   display: flex;
+  -webkit-display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 10px;
@@ -39,6 +42,7 @@ body
 }
 
 .magic-items{
+
   width: 300px;
   margin: 5px;
 
@@ -51,6 +55,7 @@ body
 }
 
 .text2{
+
   font-size:15px;
   border-color: #b5b5bd; 
 }
